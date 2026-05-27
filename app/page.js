@@ -85,9 +85,9 @@ export default function Home() {
               <div style={s.eyebrow}>GymJunkiez</div>
               <h1 style={s.headline}>Stay Consistent.<br />See Progress.</h1>
               <p style={s.subline}>
-                A local-first strength tracker built for real training.
+                A strength tracker built for real training.
                 Log workouts, build templates, measure progress, and reach
-                your strength goals — with optional AI coaching.
+                your goals — with optional AI coaching.
               </p>
               <div style={s.ctaRow}>
                 <a href={APP_STORE_URL} className="btn-app-store">
@@ -210,9 +210,14 @@ export default function Home() {
           <span style={{ color: 'var(--text-muted)', fontSize: 14 }}>
             © {new Date().getFullYear()} GymJunkiez. All rights reserved.
           </span>
-          <a href={APP_STORE_URL} style={{ color: 'var(--text-muted)', fontSize: 14 }}>
-            App Store
-          </a>
+          <div style={{ display: 'flex', gap: 20 }}>
+            <a href={APP_STORE_URL} style={{ color: 'var(--text-muted)', fontSize: 14 }}>
+              App Store
+            </a>
+            <a href="/privacy-policy" style={{ color: 'var(--text-muted)', fontSize: 14 }}>
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </footer>
     </>
