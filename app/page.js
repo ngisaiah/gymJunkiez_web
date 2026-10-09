@@ -130,17 +130,16 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── Premium ───────────────────────────────────────────────── */}
+        {/* ── Free ──────────────────────────────────────────────────── */}
         <section style={{ ...s.section, background: 'var(--bg-deep)' }}>
           <div className="section">
             <div style={s.premiumGrid}>
               <div style={s.premiumCopy}>
-                <p style={s.sectionLabel}>Premium</p>
-                <h2 style={s.sectionTitle}>Unlock advanced coaching</h2>
+                <p style={s.sectionLabel}>Completely free</p>
+                <h2 style={s.sectionTitle}>Every feature, included free</h2>
                 <p style={s.bodyText}>
-                  Premium unlocks AI-generated weekly training plans, advanced
-                  goal tracking with strength targets and estimated 1RMs,
-                  full workout template libraries, and detailed analytics.
+                  GymJunkiez is completely free. The features below are
+                  included free for everyone.
                 </p>
                 <ul style={s.premiumList}>
                   {[
@@ -160,8 +159,8 @@ export default function Home() {
               <div style={s.premiumBadge}>
                 <div style={s.badgeInner}>
                   <IconStar />
-                  <p style={s.badgeTitle}>Premium</p>
-                  <p style={s.badgeBody}>Upgrade inside the app via monthly or annual subscription.</p>
+                  <p style={s.badgeTitle}>Free</p>
+                  <p style={s.badgeBody}>Download GymJunkiez and start training at no cost.</p>
                 </div>
               </div>
             </div>
